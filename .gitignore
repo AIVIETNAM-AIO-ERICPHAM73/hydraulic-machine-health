@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+*service-account*.json
+
+# Data and artifacts
+data/raw/
+data/interim/
+data/processed/
+datasets/
+artifacts/
+checkpoints/
+models/
+outputs/
+runs/
+mlruns/
+wandb/
+
+# Large files
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+*.zip
+*.tar.gz
+
+# OS/editor
+.DS_Store
+.vscode/

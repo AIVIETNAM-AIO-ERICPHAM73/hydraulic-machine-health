@@ -1,0 +1,20 @@
+# Recommended Colab runtime for this project:
+#   Runtime -> Change runtime type -> Runtime Version -> 2026.07
+# Baseline runtime: Python 3.12.13.
+#
+
+# Project-specific ML / research packages
+scikit-learn>=1.9,<2.0
+lightgbm>=4.6,<5.0
+xgboost>=3.0,<4.0
+optuna>=4.7,<5.0
+shap>=0.50,<0.53
+
+# Data persistence / dataset access / utilities
+pyarrow>=23,<26
+joblib>=1.4,<2.0
+tqdm>=4.67,<5.0
+ucimlrepo>=0.0.7,<0.1
+
+# Optional: only needed if you run the repository tests inside Colab
+pytest>=8.4,<10.0
